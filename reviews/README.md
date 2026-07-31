@@ -7,8 +7,8 @@
 | ファイル | 内容 | 作成するスキル |
 | --- | --- | --- |
 | `draft.md` | レビュー前の草稿 | `/register_draft`（サイクル開始） |
-| `review_gemini.md` | Gemini のレビュー応答 | `/register_gemini_review`（並走期間のみ） |
 | `review_claude.md` | Claude のレビュー結果 | `/review_report` |
+| `review_gemini.md` | Gemini のレビュー応答 | ―（過去の並走期間のサイクルにのみ存在。現在は作成しない） |
 | `final.md` | 公開した最終版 | `/register_final`（サイクル完了の印） |
 | `notes.md` | 任意。diff から読み取れないユーザーの所感 | `/register_final` の任意ステップ |
 

@@ -1,6 +1,6 @@
 # テキスト→Markdown 変換規則
 
-`register_draft` / `register_gemini_review` / `register_final` / `import_report` が共通で従う変換規則です。
+`register_draft` / `register_final` / `import_report` が共通で従う変換規則です。
 
 ## 大原則
 
@@ -24,6 +24,6 @@
 title: レポートのタイトル
 created_at: 2026-07-08        # 登録日（JST）
 published_at: 2026-07-05      # 公開日（公開版・corpus のみ）
-source_url: https://...       # 公開URLから取得した場合のみ
+source_url: https://...       # 公開URL。草稿は必須、公開版・corpus は取得できた場合のみ
 ---
 ```

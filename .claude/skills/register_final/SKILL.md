@@ -16,4 +16,4 @@ description: 公開した登山レポートの最終版を、公開URLのfetch�
 3. **Markdown 変換**: [docs/text_to_markdown.md](../../../docs/text_to_markdown.md) に従い、**語句を変えずに**変換する。
 4. **保存**: frontmatter（`title` / `published_at` / `source_url`（URLから取得した場合） / `created_at`）を付けて `final.md` として Write する。`published_at` には公開日ではなく山行日を入れる。
 5. **所感の確認（任意）**: 「今回のレビューについて、diff からは読み取れない所感（的外れだった指摘、特に助かった指摘、リライトの方向性への感想など）があれば notes.md に残せます」と一言案内する。あれば `notes.md` に保存する（形式自由、箇条書き推奨）。なければ作成しない。
-6. **完了報告**: サイクル完了を報告する。当該サイクルの draft / review_gemini / review_claude / final / notes の揃い具合と、`reviews/` 全体での完了サイクル数（final.md があるもの）を添え、3〜5件たまっていれば `/review_feedback` の実施を案内する。
+6. **完了報告**: サイクル完了を報告する。当該サイクルの draft / review_claude / final / notes の揃い具合と、`reviews/` 全体での完了サイクル数（final.md があるもの）を添え、3〜5件たまっていれば `/review_feedback` の実施を案内する。

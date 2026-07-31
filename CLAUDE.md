@@ -4,9 +4,8 @@
 
 ## 目的
 
-1. ユーザーが書いた登山レポートの草稿をAIがレビューする（指摘一覧＋セクション構成を維持したほぼ全文のリライト案）
+1. ユーザーが書いた登山レポートの草稿を Claude がレビューする（指摘一覧＋セクション構成を維持したほぼ全文のリライト案）
 2. レビュー結果と実際の公開版との差分から「どの提案が採用されたか」を定期的に集計し、レビューガイドラインを人手承認で更新する
-3. 当面は Gemini のレビューを正としつつ Claude が並走し、比較材料が揃った段階で Claude に一本化する
 
 ## ディレクトリ構成
 
@@ -22,8 +21,8 @@ trip_report_review/
 ├── reviews/                       # 1レビューサイクル = 1ディレクトリ
 │   └── YYYY-MM-DD_<slug>/
 │       ├── draft.md               # レビュー前の草稿
-│       ├── review_gemini.md       # Gemini の応答（並走期間のみ）
 │       ├── review_claude.md       # Claude のレビュー結果
+│       ├── review_gemini.md       # Gemini の応答（過去の並走期間のサイクルのみ。現在は作成しない）
 │       ├── final.md               # 公開した最終版（サイクル完了の印）
 │       └── notes.md               # 任意：ユーザーの所感
 ├── meta/
@@ -33,11 +32,10 @@ trip_report_review/
 
 ## 1レビューサイクルの流れ
 
-1. `/register_draft` — 草稿（テキストベース）を登録。`reviews/YYYY-MM-DD_<slug>/draft.md` が作られ、サイクル開始
-2. （並走期間のみ）従来どおり Gemini にレビューを依頼し、応答を `/register_gemini_review` で登録
-3. `/review_report` — Claude がレビューを実行し `review_claude.md` を出力
-4. レビューを取捨選択してレポートを修正・公開したら、`/register_final` で公開版を登録（サイクル完了）
-5. 完了サイクルが3〜5件たまったら `/review_feedback` でメタレビューを実施し、ガイドラインを育てる
+1. `/register_draft` — 草稿（テキストベース）と公開URLを登録。`reviews/YYYY-MM-DD_<slug>/draft.md` が作られ、サイクル開始
+2. `/review_report` — Claude がレビューを実行し `review_claude.md` を出力
+3. レビューを取捨選択してレポートを修正・公開したら、`/register_final` で公開版を登録（サイクル完了）
+4. 完了サイクルが3〜5件たまったら `/review_feedback` でメタレビューを実施し、ガイドラインを育てる
 
 補助スキル:
 
@@ -50,11 +48,10 @@ trip_report_review/
 - reviews/ の過去分と corpus/ 全体を横断して読むのは `review_feedback` と `distill_style_profile` だけ
 - guidelines/ 配下の更新は、これら2スキルが提示した差分案をユーザーが承認したときのみ行う。それ以外の場面で勝手に編集しない
 
-## 運用フェーズ
+## 運用状況
 
-- **フェーズ1（並走）**: Gemini のレビューを正として運用し、Claude はシャドーでレビューを残す（結果の比較はメタレビューに委ねる）
-- **フェーズ2（比較・強化）**: メタレビューで採用傾向と Gemini / Claude の比較を集計し、ガイドラインを強化する
-- **フェーズ3（一本化）**: Claude のレビューが実用水準に達したと判断できたら Gemini を外す（`register_gemini_review` は役目を終える）
+- レビューは **Claude に一本化済み**（2026-07-31）。かつて Gemini と並走していた期間の記録は `reviews/*/review_gemini.md` として残っているが、新規サイクルでは作成しない
+- メタレビュー（`review_feedback`）が過去の並走期間のサイクルを対象に含む場合のみ、`review_gemini.md` を材料として読む
 
 ## 共通ルール
 

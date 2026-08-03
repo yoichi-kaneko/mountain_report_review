@@ -3,6 +3,7 @@ title: 【山梨百名山】天空のビーチ「日向山」へ（甲斐駒ヶ�
 published_at: 2025-10-18
 created_at: 2026-07-14
 source_url: https://yamap.com/activities/43705534
+tags: [晴れ, 標高1000m台, 眺望良好, 難度低, 連日遠征, 時間制約]
 ---
 
 今回の山行は、日曜日の甘利山登山が主目的。

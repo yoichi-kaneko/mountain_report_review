@@ -3,6 +3,7 @@ title: 【やまなし2025】塩山駅から塩ノ山
 published_at: 2025-09-07
 created_at: 2026-07-09
 source_url: https://yamap.com/activities/42724681
+tags: [標高1000m未満, 眺望良好, 難度低, 日帰り, バッジ企画]
 ---
 
 YAMAP恒例の「山のぼり・まち歩き」キャンペーン。

@@ -3,6 +3,7 @@ title: 【関東百名山】経塚バス停から大霧山へ
 published_at: 2026-02-14
 created_at: 2026-08-03
 source_url: https://yamap.com/activities/46111808
+tags: [標高1000m未満, 眺望良好, 難度中, 藪漕ぎ, 日帰り, 縦走]
 ---
 
 この日は秩父の大霧山へ。

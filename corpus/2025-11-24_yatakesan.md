@@ -3,6 +3,7 @@ title: 【東海の百山】大嵐駅から八嶽山へ
 published_at: 2025-11-24
 created_at: 2026-07-17
 source_url: https://yamap.com/activities/44573700
+tags: [標高1000m台, 眺望一部, 難度低, 連日遠征]
 ---
 
 愛知県東部の登山2日目。

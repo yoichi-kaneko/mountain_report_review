@@ -3,6 +3,7 @@ title: 【九州山旅 Day4/阿蘇2025踏破】高森駅かららくだ岩へ
 created_at: 2026-07-13
 published_at: 2025-10-13
 source_url: https://yamap.com/activities/43606129
+tags: [晴れ, 標高1000m未満, 眺望良好, 難度低, 連日遠征, バッジ企画]
 ---
 
 熊本での3泊4日の山旅、ついに最終日を迎えた。

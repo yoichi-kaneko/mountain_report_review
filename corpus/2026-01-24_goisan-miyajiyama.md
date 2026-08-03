@@ -3,6 +3,7 @@ title: 【東海の百山】宮路山や周辺の山を縦走
 published_at: 2026-01-24
 created_at: 2026-08-03
 source_url: https://yamap.com/activities/45729792
+tags: [標高1000m未満, 眺望良好, 難度低, 連日遠征, 縦走]
 ---
 
 今回は、東海の百山に数えられる宮路山へ。

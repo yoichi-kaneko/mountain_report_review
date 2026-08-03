@@ -3,6 +3,7 @@ title: 駒ヶ岳ロープウェイから将棊頭山や木曽駒ヶ岳を周回
 published_at: 2022-08-14
 created_at: 2026-08-03
 source_url: https://yamap.com/activities/19023976
+tags: [雨, ガス, 強風, 標高2000m台, 眺望なし, 難度中, 藪漕ぎ, ルート不明瞭, 日帰り, 計画変更]
 ---
 
 中央アルプスの主峰、木曽駒ヶ岳

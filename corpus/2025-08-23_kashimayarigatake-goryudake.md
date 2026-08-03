@@ -3,6 +3,7 @@ title: "【北アルプス】扇沢から鹿島槍ヶ岳～八峰キレット～
 created_at: 2026-07-08
 published_at: 2025-08-23
 source_url: https://yamap.com/activities/42440377
+tags: [晴れ, ガス, 標高2000m台, 眺望良好, 難度高, 岩場・鎖場, 小屋泊, 縦走, 時間制約, 動物との出会い]
 ---
 
 ## はじめに

@@ -3,6 +3,7 @@ title: 【Mt.GUNMA 2025】伊香保温泉の石段街入口から上ノ山へ
 published_at: 2025-08-30
 created_at: 2026-07-09
 source_url: https://yamap.com/activities/42538067
+tags: [標高1000m未満, 眺望良好, 難度低, 連日遠征, バッジ企画]
 ---
 
 https://yamap.com/campaigns/3378

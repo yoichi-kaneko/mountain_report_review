@@ -3,6 +3,7 @@ title: 【山梨百名山リベンジ】韮崎駅発・甘利山と千頭星山�
 published_at: 2025-10-19
 created_at: 2026-07-14
 source_url: https://yamap.com/activities/43752129
+tags: [曇り, 雨, 標高2000m台, 眺望一部, 難度低, 連日遠征, 縦走, リベンジ・宿題, バッジ企画, 人との交流]
 ---
 
 毎年恒例のYAMAPの山梨県央企画。

@@ -3,6 +3,7 @@ title: 【山梨百名山】上野原駅から高柄山と秋山二十六夜山�
 published_at: 2026-01-04
 created_at: 2026-07-17
 source_url: https://yamap.com/activities/45373508
+tags: [雪, 標高1000m未満, 眺望なし, 難度高, 日帰り, 縦走, 時間制約]
 ---
 
 ## はじめに

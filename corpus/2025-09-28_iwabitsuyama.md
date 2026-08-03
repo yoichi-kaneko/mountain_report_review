@@ -3,6 +3,7 @@ title: 【Mt.GUNMA対象】鎖場を攻略！　岩櫃山周回と吾妻峡温�
 created_at: 2026-07-13
 published_at: 2025-09-28
 source_url: https://yamap.com/activities/43248715
+tags: [晴れ, 標高1000m未満, 眺望良好, 難度中, 岩場・鎖場, 日帰り, バッジ企画]
 ---
 
 毎年恒例のYAMAP Mt.GUNMAキャンペーン。

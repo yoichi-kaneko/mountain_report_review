@@ -3,6 +3,7 @@ title: 【山梨県央企画2025】平林ルートで挑む、二度目の櫛形
 created_at: 2026-07-13
 published_at: 2025-10-05
 source_url: https://yamap.com/activities/43396504
+tags: [曇り, 標高2000m台, 眺望一部, 難度低, 連日遠征, 再訪, バッジ企画]
 ---
 
 毎年恒例のYAMAP山梨県央企画に参加し、今回は櫛形山に挑んだ。

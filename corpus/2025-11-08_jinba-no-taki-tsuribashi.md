@@ -3,6 +3,7 @@ title: 【GOOUT2025】GO OUT SUPER HIKINGの対象ランドマークをハイキ
 published_at: 2025-11-08
 created_at: 2026-07-16
 source_url: https://yamap.com/activities/44167418
+tags: [難度低, 日帰り, 古道・ハイキング, バッジ企画]
 ---
 
 GO OUT SUPER HIKINGのデジタルバッジ企画のため、富士山の西側のエリアに向かう。

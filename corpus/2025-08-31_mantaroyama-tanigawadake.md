@@ -3,6 +3,7 @@ title: 【Mt.GUNMA 2025】万太郎山から谷川岳へ
 published_at: 2025-08-31
 created_at: 2026-07-09
 source_url: https://yamap.com/activities/42592154
+tags: [晴れ, ガス, 標高1000m台, 眺望一部, 難度中, 岩場・鎖場, 崩落・荒廃, 連日遠征, 縦走, 再訪, バッジ企画]
 ---
 
 https://yamap.com/campaigns/3378

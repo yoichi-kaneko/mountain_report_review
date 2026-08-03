@@ -3,6 +3,7 @@ title: 【やまなし2025】甲府駅発：要害山〜山梨百名山・帯那
 created_at: 2026-07-13
 published_at: 2025-10-04
 source_url: https://yamap.com/activities/43365983
+tags: [曇り, 標高1000m台, 眺望一部, 難度中, 崩落・荒廃, 藪漕ぎ, ルート不明瞭, 連日遠征, バッジ企画]
 ---
 
 毎年恒例のYAMAPの山梨県央企画。

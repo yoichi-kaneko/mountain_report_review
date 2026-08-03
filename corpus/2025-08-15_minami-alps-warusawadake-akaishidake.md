@@ -3,6 +3,7 @@ title: "【南アルプス】椹島ロッヂから悪沢岳と赤石岳を反時
 created_at: 2026-07-08
 published_at: 2025-08-15
 source_url: https://yamap.com/activities/42223530
+tags: [晴れ, 雨, ガス, 標高3000m級, 眺望良好, 難度高, 小屋泊, 縦走, 時間制約, 花・植物, 動物との出会い]
 ---
 
 ## はじめに

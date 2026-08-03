@@ -3,6 +3,7 @@ title: "【山口の山旅】吉見駅から竜王山"
 published_at: 2025-12-28
 created_at: 2026-07-17
 source_url: https://yamap.com/activities/45139048
+tags: [晴れ, 標高1000m未満, 眺望良好, 難度低, 連日遠征, 時間制約]
 ---
 
 2025年の年末から2026年にかけて、山口の山々を巡る旅を設定。

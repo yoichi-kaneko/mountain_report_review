@@ -3,6 +3,7 @@ title: 【関西百名山】烏帽子山（那智山）に南側からアプロ�
 published_at: 2025-11-03
 created_at: 2026-07-14
 source_url: https://yamap.com/activities/44071957
+tags: [標高1000m未満, 眺望なし, 難度高, 崩落・荒廃, ルート不明瞭, 連日遠征]
 ---
 
 紀伊半島南部2泊3日の旅も最終日。

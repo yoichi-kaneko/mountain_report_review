@@ -3,6 +3,7 @@ title: "【山形の山旅 Day1】舟形駅から猿羽根山"
 created_at: 2026-07-08
 published_at: 2025-08-09
 source_url: https://yamap.com/activities/42045975
+tags: [曇り, 標高1000m未満, 眺望一部, 難度中, 崩落・荒廃, 藪漕ぎ, ルート不明瞭, 連日遠征, バッジ企画]
 ---
 
 ## はじめに

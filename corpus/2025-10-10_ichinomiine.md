@@ -3,6 +3,7 @@ title: 【九州山旅 Day1】熊本空港から歩く阿蘇外輪山・一ノ�
 created_at: 2026-07-13
 published_at: 2025-10-10
 source_url: https://yamap.com/activities/43484287
+tags: [晴れ, 標高1000m未満, 眺望良好, 難度低, 連日遠征, バッジ企画]
 ---
 
 YAMAPデジタルバッジキャンペーンへの参加を目的として、3泊4日の九州山旅へ。

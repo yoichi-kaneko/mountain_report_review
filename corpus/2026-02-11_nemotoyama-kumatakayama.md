@@ -3,6 +3,7 @@ title: 【関東百名山】雪の根本山へ
 published_at: 2026-02-11
 created_at: 2026-08-03
 source_url: https://yamap.com/activities/46062582
+tags: [雪, 標高1000m台, 眺望良好, 難度中, ルート不明瞭, 日帰り, 縦走]
 ---
 
 この日は、冬の装いを残す根本山へ。

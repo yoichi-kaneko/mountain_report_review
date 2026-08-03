@@ -3,6 +3,7 @@ title: "【香川の山旅最終日】金刀比羅宮から大麻山への締め
 published_at: 2026-01-12
 created_at: 2026-07-17
 source_url: https://yamap.com/activities/45525148
+tags: [標高1000m未満, 眺望良好, 難度低, 連日遠征, 歴史・信仰]
 ---
 
 香川の山旅3日目、午後の部は琴平山と大麻山へ。

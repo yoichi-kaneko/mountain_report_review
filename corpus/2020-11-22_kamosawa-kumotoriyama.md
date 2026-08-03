@@ -3,6 +3,7 @@ title: 鴨沢登山口から雲取山へ日帰りピストン
 published_at: 2020-11-22
 created_at: 2026-08-03
 source_url: https://yamap.com/activities/8768739
+tags: [標高2000m台, 難度中, 日帰り]
 ---
 
 百名山の17座目、雲取山へ。

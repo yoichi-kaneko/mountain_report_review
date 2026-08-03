@@ -3,6 +3,7 @@ title: 【やまがた百名山】予想外の難路　米沢の兜山
 created_at: 2026-07-09
 published_at: 2025-09-21
 source_url: https://yamap.com/activities/43034665
+tags: [曇り, ガス, 標高1000m台, 眺望なし, 難度高, 藪漕ぎ, ルート不明瞭, 日帰り, バッジ企画]
 ---
 
 期間限定のキャンペーンは終了したが、

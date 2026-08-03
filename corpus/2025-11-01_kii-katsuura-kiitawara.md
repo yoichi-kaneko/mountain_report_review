@@ -3,6 +3,7 @@ title: 【高野・熊野巡りコンプリート】紀伊勝浦駅から紀伊�
 published_at: 2025-11-01
 created_at: 2026-07-14
 source_url: https://yamap.com/activities/43984542
+tags: [標高1000m未満, 難度低, 連日遠征, 古道・ハイキング, バッジ企画, 歴史・信仰]
 ---
 
 数年かけて追いかけてきたYAMAPの「高野・熊野巡り」キャンペーン。

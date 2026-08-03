@@ -3,6 +3,7 @@ title: 【九州山旅 Day2】猟師岳とヒゴタイ公園を周回
 created_at: 2026-07-13
 published_at: 2025-10-11
 source_url: https://yamap.com/activities/43516300
+tags: [晴れ, 標高1000m台, 眺望良好, 難度低, 連日遠征, 時間制約, 再訪, バッジ企画]
 ---
 
 デジタルバッジ獲得のため、いざ熊本へ。

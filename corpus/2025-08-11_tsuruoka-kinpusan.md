@@ -3,6 +3,7 @@ title: 【山形の山旅 Day3】鶴岡の金峯山
 created_at: 2026-07-08
 published_at: 2025-08-11
 source_url: https://yamap.com/activities/42099039
+tags: [曇り, 雨, 標高1000m未満, 眺望一部, 難度低, 連日遠征, バッジ企画, 歴史・信仰]
 ---
 
 ## はじめに

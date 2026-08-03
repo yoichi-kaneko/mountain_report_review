@@ -3,6 +3,7 @@ title: 【関西百名山】串本駅から嶽ノ森山へ
 published_at: 2025-11-02
 created_at: 2026-07-14
 source_url: https://yamap.com/activities/44029944
+tags: [標高1000m未満, 眺望良好, 難度中, 岩場・鎖場, 連日遠征]
 ---
 
 前日に熊野古道歩きのため、2泊3日で紀伊半島南部へ入った。

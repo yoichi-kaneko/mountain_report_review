@@ -3,6 +3,7 @@ title: 【関東百名山】三峯神社から妙法ヶ岳へ（裏参道ルー�
 published_at: 2025-09-06
 created_at: 2026-07-09
 source_url: https://yamap.com/activities/42676544
+tags: [標高1000m台, 眺望良好, 難度中, 岩場・鎖場, 日帰り, 計画変更, 歴史・信仰]
 ---
 
 関東百名山の一つ、妙法ヶ岳。

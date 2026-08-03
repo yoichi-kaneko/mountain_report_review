@@ -1,6 +1,6 @@
 ---
 title: 【関東百名山】岩舟駅から岩船山～晃石山～太平山と縦走
-published_at: 2026-02-11
+published_at: 2026-02-01
 created_at: 2026-08-03
 source_url: https://yamap.com/activities/45905093
 ---

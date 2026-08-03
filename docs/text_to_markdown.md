@@ -25,5 +25,8 @@ title: レポートのタイトル
 created_at: 2026-07-08        # 登録日（JST）
 published_at: 2026-07-05      # 公開日（公開版・corpus のみ）
 source_url: https://...       # 公開URL。草稿は必須、公開版・corpus は取得できた場合のみ
+tags: [晴れ, 標高1000m台, 眺望良好, 難度低, 日帰り]   # レポートタグ（公開版・corpus のみ）
 ---
 ```
+
+`tags` は公開版・corpus のみに付与する。語彙と付与ルールは [tags.md](tags.md) に従う。

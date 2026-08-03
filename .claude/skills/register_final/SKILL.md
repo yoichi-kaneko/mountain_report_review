@@ -14,6 +14,6 @@ description: 公開した登山レポートの最終版を、公開URLのfetch�
    - 公開URLが渡された場合: WebFetch で本文・タイトル・山行日を取得する。失敗時は1回だけ再試行し、それでも失敗したらテキストの貼り付けを依頼する。公開日も取得できる場合は補助情報として控えてよいが、管理の基準には使わない。
    - テキストで渡された場合: そのまま使う。山行日が分からなければユーザーに確認する。
 3. **Markdown 変換**: [docs/text_to_markdown.md](../../../docs/text_to_markdown.md) に従い、**語句を変えずに**変換する。
-4. **保存**: frontmatter（`title` / `published_at` / `source_url`（URLから取得した場合） / `created_at`）を付けて `final.md` として Write する。`published_at` には公開日ではなく山行日を入れる。
+4. **保存**: frontmatter（`title` / `published_at` / `source_url`（URLから取得した場合） / `created_at` / `tags`）を付けて `final.md` として Write する。`published_at` には公開日ではなく山行日を入れる。`tags` は [docs/tags.md](../../../docs/tags.md) の統制語彙に従い、本文から読み取れる条件で自動考案して付与する。語彙にない値が必要だと感じた場合は勝手に使わず、ユーザーに承認を求める。
 5. **所感の確認（任意）**: 「今回のレビューについて、diff からは読み取れない所感（的外れだった指摘、特に助かった指摘、リライトの方向性への感想など）があれば notes.md に残せます」と一言案内する。あれば `notes.md` に保存する（形式自由、箇条書き推奨）。なければ作成しない。
-6. **完了報告**: サイクル完了を報告する。当該サイクルの draft / review_claude / final / notes の揃い具合と、`reviews/` 全体での完了サイクル数（final.md があるもの）を添え、3〜5件たまっていれば `/review_feedback` の実施を案内する。
+6. **完了報告**: サイクル完了を報告する。付与したタグ、当該サイクルの draft / review_claude / final / notes の揃い具合と、`reviews/` 全体での完了サイクル数（final.md があるもの）を添え、3〜5件たまっていれば `/review_feedback` の実施を案内する。

@@ -13,7 +13,8 @@
 trip_report_review/
 ├── CLAUDE.md                      # このファイル
 ├── docs/
-│   └── text_to_markdown.md       # テキスト→Markdown 変換の共通規則
+│   ├── text_to_markdown.md       # テキスト→Markdown 変換の共通規則
+│   └── tags.md                   # レポートタグの統制語彙と付与ルール
 ├── guidelines/
 │   ├── review_guideline.md       # レビュー観点の正本（メタレビューで育てる対象）
 │   └── style_profile.md          # 文体プロファイル（過去レポートから蒸留）
@@ -44,7 +45,7 @@ trip_report_review/
 
 ## 参照の原則（コンテキスト分離）
 
-- `review_report` が読んでよいのは、guidelines/ の2ファイル、当該サイクルの draft.md、直近の公開版2〜3本まで。**過去サイクルのレビュー結果・notes.md や corpus/ 全体は読まない**
+- `review_report` が読んでよいのは、guidelines/ の2ファイル、当該サイクルの draft.md、直近の公開版2〜3本、およびタグ検索で選んだ類似条件の公開版1〜2本まで。frontmatter（タグ）だけの横断検索は `corpus/*.md`・`reviews/*/final.md` に対して行ってよいが、本文まで読むのはその1〜2本に限る（[docs/tags.md](docs/tags.md) 参照）。**過去サイクルのレビュー結果・notes.md は読まない。corpus/ と過去 final の本文を上記の範囲を超えて読まない**
 - reviews/ の過去分と corpus/ 全体を横断して読むのは `review_feedback` と `distill_style_profile` だけ
 - guidelines/ 配下の更新は、これら2スキルが提示した差分案をユーザーが承認したときのみ行う。それ以外の場面で勝手に編集しない
 
@@ -57,4 +58,5 @@ trip_report_review/
 
 - 日付は実行環境の日本標準時（JST）の現在日を用いる
 - テキスト→Markdown 変換は [docs/text_to_markdown.md](docs/text_to_markdown.md) に従う。**変換で本文の語句を変えない**
+- corpus / final の frontmatter に付与するタグは [docs/tags.md](docs/tags.md) の統制語彙に従う。語彙にない値はユーザー承認を得て docs/tags.md に追記してから使う
 - ツール呼び出し（WebFetch 等）が失敗した場合は1回だけ再試行し、それでも失敗したらユーザーに報告して指示を仰ぐ

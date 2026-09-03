@@ -21,4 +21,4 @@ description: 登山レポートの草稿（テキストベース）と公開URL�
    - 同名ディレクトリが既に存在する場合は、slug の変更をユーザーに相談する。
 4. **Markdown 変換**: [docs/text_to_markdown.md](../../../docs/text_to_markdown.md) に従って変換する。**本文の語句は一切変えない**。
 5. **保存**: frontmatter（`title` / `created_at` / `source_url`（手順2で受け取った公開URL）。重点ポイントのコメントがあれば `review_focus` として記録する。本文には含めない）を付けて `draft.md` として Write する。
-6. **報告**: 作成したパスを報告し、次の手順（`/review_report` でのレビュー実行）を一言案内する。重点ポイントのコメントが未登録の場合は、`/review_report` 実行時に「重点的に見てほしいポイント」や「文章面の悩み」を任意で伝えられることを一言添える。
+6. **報告**: 作成したパスを報告し、次の手順（`/prepare_external_review` で外部LLM用のプロンプトを生成 → 外部レビューの応答を `/register_external_review` で取り込み → `/review_report` で突き合わせ）を一言案内する。重点ポイントのコメントが未登録の場合は、`/prepare_external_review` 実行時に「重点的に見てほしいポイント」や「文章面の悩み」を任意で伝えられることを一言添える（外部レビューと Claude の双方に共有される）。

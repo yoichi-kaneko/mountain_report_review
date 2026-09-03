@@ -16,4 +16,5 @@ description: 公開した登山レポートの最終版を、公開URLのfetch�
 3. **Markdown 変換**: [docs/text_to_markdown.md](../../../docs/text_to_markdown.md) に従い、**語句を変えずに**変換する。
 4. **保存**: frontmatter（`title` / `published_at` / `source_url`（URLから取得した場合） / `created_at` / `tags`）を付けて `final.md` として Write する。`published_at` には公開日ではなく山行日を入れる。`tags` は [docs/tags.md](../../../docs/tags.md) の統制語彙に従い、本文から読み取れる条件で自動考案して付与する。語彙にない値が必要だと感じた場合は勝手に使わず、ユーザーに承認を求める。
 5. **所感の確認（任意）**: 「今回のレビューについて、diff からは読み取れない所感（的外れだった指摘、特に助かった指摘、リライトの方向性への感想など）があれば notes.md に残せます」と一言案内する。あれば `notes.md` に保存する（形式自由、箇条書き推奨）。なければ作成しない。
-6. **完了報告**: サイクル完了を報告する。付与したタグ、当該サイクルの draft / review_claude / final / notes の揃い具合と、`reviews/` 全体での完了サイクル数（final.md があるもの）を添え、3〜5件たまっていれば `/review_feedback` の実施を案内する。
+   - `review_external.md` があるサイクルでは、「外部レビュー由来の指摘と Claude 由来の指摘のどちらが役に立ったか」「Claude が不採用と判定した外部提案のうち、実は採りたかったものがあるか」も任意で残せることを添える。メタレビューが突き合わせの精度を評価する材料になる。
+6. **完了報告**: サイクル完了を報告する。付与したタグ、当該サイクルの draft / review_external / review_claude / final / notes の揃い具合と、`reviews/` 全体での完了サイクル数（final.md があるもの）を添え、3〜5件たまっていれば `/review_feedback` の実施を案内する。

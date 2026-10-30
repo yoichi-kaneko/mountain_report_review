@@ -65,7 +65,8 @@ trip_report_review/
 | --- | --- | --- |
 | 〜2026-07-30 | **並走期**: Claude と Gemini が独立にレビュー | `review_claude.md` + `review_gemini.md` |
 | 2026-07-31〜2026-09-02 | **Claude 単独期** | `review_claude.md` |
-| 2026-09-03〜 | **2段レビュー期**: 外部LLM（1回目）→ Claude の突き合わせ（2回目） | `review_external.md` + `review_claude.md` |
+| 2026-09-03〜2026-09-30 | **2段レビュー期**: 外部LLM（1回目）→ Claude の突き合わせ（2回目）。外部は chatgpt / gpt-6-astra | `review_external.md` + `review_claude.md` |
+| 2026-10-01〜 | **2段レビュー期**（体制は同上）: 外部を chatgpt / gpt-6.1-sol に切り替え | `review_external.md` + `review_claude.md` |
 
 - 過去のフェーズのファイルはリネームせず、そのまま保全する（`review_gemini.md` を含む）
 - 外部レビューを担当するモデル／ツールを差し替えてもファイル名は `review_external.md` のまま。`reviewer` / `model` は frontmatter に記録し、切り替え時はこの表に1行追記する（[docs/external_review.md](docs/external_review.md) セクション5）
